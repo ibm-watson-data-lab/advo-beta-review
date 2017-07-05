@@ -26,7 +26,7 @@ To address LocalCart's first project goal, their data science team collects data
 1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [Notebook #1: Creating a Kafka Producer of ClickStream events](https://apsportal.ibm.com/analytics/notebooks/c3aee820-01af-478f-bd0f-07d80866863f/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
 1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue 
 	* [Notebook #2: Creating a streaming pipeline](https://apsportal.ibm.com/analytics/notebooks/d06e9e69-f8c9-4608-9e07-deb10fc4f85f/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
-	* [Notebook #2a: Aggregating stream data](https://apsportal.ibm.com/analytics/notebooks/33ff5c0d-9a2a-44df-89fd-32ab2703097e/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+<!--	* [Notebook #2a: Aggregating stream data](https://apsportal.ibm.com/analytics/notebooks/33ff5c0d-9a2a-44df-89fd-32ab2703097e/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics) -->
 
 ###Exploring and analyzing customer activity data
 
@@ -35,8 +35,10 @@ Next the LocalCart team explores learns more about their customers by examining 
 You can recreate their analysis by running the following notebooks:
 
 1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data for the team using Data Refinery and transforms the data for use by the data scientists. 	* [Notebook #3: Static clickstream analysis](https://apsportal.ibm.com/analytics/notebooks/79e5cc81-a452-4039-943a-3dbd08cadb89/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
-	* [Notebook #3: Explore customer demographics](https://apsportal.ibm.com/analytics/notebooks/4a140569-b36f-4c89-9f46-950dbf771503/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
-   * Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.Share the graph and chart with other team members.[Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+	* [Notebook #3: Analyze customer demographics and sales data](https://apsportal.ibm.com/analytics/notebooks/4a140569-b36f-4c89-9f46-950dbf771503/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+
+	
+	Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.Share the graph and chart with other team members. [Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
 
 
 1. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
@@ -50,7 +52,7 @@ You can recreate their analysis by running the following notebooks:
 
 Finally, build a recommendation engine that will encourage LocalCart customers to buy additional products. Recommendations will be based on individual customer buying behavior, all-customers buying behaviors across the LocalCart business, and product rating. 
 
-* **A recommendation engine using Watson Machine Learning**. [Notebook #5: Predicting purchases](https://apsportal.ibm.com/analytics/notebooks/23a722e4-fa68-4412-8c8b-3b4e93977567/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics).
+* **A recommendation engine using Watson Machine Learning**. [Notebook #5: Recommending purchases - new notebook in development]<!--(https://apsportal.ibm.com/analytics/notebooks/23a722e4-fa68-4412-8c8b-3b4e93977567/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)-->.
 
 The developer or data scientist: 
 
