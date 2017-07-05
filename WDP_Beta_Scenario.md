@@ -7,7 +7,7 @@ LocalCart is a fast growing, online same-day-delivery grocery store. The busines
 To be successful, LocalCart requires a deep understanding of who their customers are, the behavior of those customers when shopping through LocalCart, and the ability to provide targeted product recommendations to increase revenue. 
 
 
-##LocalCart's data analysis needs
+## LocalCart's data analysis needs
 LocalCart has identified three key data and analytics projects that they want to start as soon as possible. LocalCart is looking for a single cloud data and analytics platform that will enable them to quickly and easily deliver all three projects. 
 
 LocalCart wants:
@@ -21,7 +21,7 @@ Using functionality available in Watson Data Platform, LocalCart's data scientis
 IBM Watson Data Platform provides LocalCart with a single cloud platform for app deployment, data management, streaming analytics, machine learning, and more. Follow along as we create the deliverables that address LocalCart's needs by using Watson Data Platform.
 
 
-###Aggregating and analyzing customer activity data
+### Aggregating and analyzing customer activity data
 
 To address LocalCart's first project goal, their data science team collects data from their application clickstream and saves it to a database for analysis. You can simulate the streaming data capture by running the following notebooks:
 
@@ -30,7 +30,7 @@ To address LocalCart's first project goal, their data science team collects data
 	* [Notebook #2: Creating a streaming pipeline](https://apsportal.ibm.com/analytics/notebooks/d06e9e69-f8c9-4608-9e07-deb10fc4f85f/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
 <!--	* [Notebook #2a: Aggregating stream data](https://apsportal.ibm.com/analytics/notebooks/33ff5c0d-9a2a-44df-89fd-32ab2703097e/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics) -->
 
-###Exploring and analyzing customer activity data
+### Exploring and analyzing customer activity data
 
 Next the LocalCart team explores learns more about their customers by examining their demographics, and then digs into sales transactions. Developing customer behavior analytics requires two separate but related skillsets: the data engineer, and the data scientist.
 
@@ -53,7 +53,7 @@ Share the graph and chart with other team members. [Notebook #3: Explore sales t
 	[Notebook #4: Visualize streaming data](https://apsportal.ibm.com/analytics/notebooks/d9fd6d78-d55f-4e83-b8ae-d465f7af256f/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
 
 
-###Recommending additional purchases
+### Recommending additional purchases
 
 Finally, build a recommendation engine that will encourage LocalCart customers to buy additional products. Recommendations will be based on individual customer buying behavior, all-customers buying behaviors across the LocalCart business, and product rating. 
 
