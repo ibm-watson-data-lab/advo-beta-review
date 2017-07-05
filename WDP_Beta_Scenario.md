@@ -20,6 +20,12 @@ Using functionality available in Watson Data Platform, LocalCart's data scientis
 
 IBM Watson Data Platform provides LocalCart with a single cloud platform for app deployment, data management, streaming analytics, machine learning, and more. Follow along as we create the deliverables that address LocalCart's needs by using Watson Data Platform.
 
+### Prerequisites
+
+Find overview and getting-started information in the Data Science Experience documentation: https://datascience.ibm.com/docs/content/getting-started/welcome-main.html. 
+
+Learn about Jupyter notebooks, which are used throughout this scenario, in the Data Science Experience documentation: https://datascience.ibm.com/docs/content/analyze-data/notebooks-parent.html
+
 
 ### Aggregating and analyzing customer activity data
 
@@ -35,7 +41,7 @@ Next the LocalCart team explores learns more about their customers by examining 
 
 You can recreate their analysis by running the following notebooks:
 
-1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data for the team using Data Refinery and transforms the data for use by the data scientists. [Notebook #3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
+1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data and transforms the data for use by the data scientists. [Notebook #3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
 
 <!--	* [Notebook #3: Static clickstream analysis](https://apsportal.ibm.com/analytics/notebooks/79e5cc81-a452-4039-943a-3dbd08cadb89/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
 
