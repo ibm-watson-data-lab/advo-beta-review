@@ -25,9 +25,8 @@ IBM Watson Data Platform provides LocalCart with a single cloud platform for app
 
 To address LocalCart's first project goal, their data science team collects data from their application clickstream and saves it to a database for analysis. You can simulate the streaming data capture by running the following notebooks:
 
-1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [Notebook #1: Creating a Kafka Producer of ClickStream events](https://apsportal.ibm.com/analytics/notebooks/c3aee820-01af-478f-bd0f-07d80866863f/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
-1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue 
-	* [Notebook #2: Creating a streaming pipeline](https://apsportal.ibm.com/analytics/notebooks/d06e9e69-f8c9-4608-9e07-deb10fc4f85f/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [Notebook #1: Creating a Kafka Producer of ClickStream events](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-1.ipynb)
+1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue. [Notebook #2: Creating a streaming pipeline](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-2.ipynb)
 <!--	* [Notebook #2a: Aggregating stream data](https://apsportal.ibm.com/analytics/notebooks/33ff5c0d-9a2a-44df-89fd-32ab2703097e/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics) -->
 
 ### Exploring and analyzing customer activity data
@@ -36,21 +35,21 @@ Next the LocalCart team explores learns more about their customers by examining 
 
 You can recreate their analysis by running the following notebooks:
 
-1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data for the team using Data Refinery and transforms the data for use by the data scientists. 
+1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data for the team using Data Refinery and transforms the data for use by the data scientists. [Notebook #3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
 
-	* [Notebook #3: Static clickstream analysis](https://apsportal.ibm.com/analytics/notebooks/79e5cc81-a452-4039-943a-3dbd08cadb89/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
-	* [Notebook #3: Analyze customer demographics and sales data](https://apsportal.ibm.com/analytics/notebooks/4a140569-b36f-4c89-9f46-950dbf771503/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+<!--	* [Notebook #3: Static clickstream analysis](https://apsportal.ibm.com/analytics/notebooks/79e5cc81-a452-4039-943a-3dbd08cadb89/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+
 
 	
 	Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.
-Share the graph and chart with other team members. [Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+Share the graph and chart with other team members. [Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)-->
 
 
-1. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
+2. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
 	* Aggregated customer activities  
 	* Intraday revenue figures on 5 minute chart  
 	* Real-time funnel status
-	[Notebook #4: Visualize streaming data](https://apsportal.ibm.com/analytics/notebooks/d9fd6d78-d55f-4e83-b8ae-d465f7af256f/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+	[Notebook #4: Visualize streaming data in a real-time dashboard](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-4.ipynb)
 
 
 ### Recommending additional purchases
@@ -65,7 +64,6 @@ The developer or data scientist:
 1. Deploys the model, which generates an API that can be called by the LocalCart application.
 1. Runs the deployed model API.
 1. Presents results in a simulated application.
-
 
 
   
