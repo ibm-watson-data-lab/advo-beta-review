@@ -1,6 +1,6 @@
 # Scenario: LocalCart seeks to boost sales by better understanding their customers
 
-LocalCart is a fast growing, online same-day-delivery grocery store. The business model is based on the ability to supply local products along with routine shopping needs, and to be able to deliver accurately in a small delivery window &emdash; as little as an hour from placing the order.
+LocalCart is a fast growing, online same-day-delivery grocery store. The business model is based on the ability to supply local products along with routine shopping needs, and to be able to deliver accurately in a small delivery window -- as little as an hour from placing the order.
 
 <!--LocalCart specializes in time-boxed fire sales. The __Friday at Five__ sale is a time and quantity bounded sale, with a limited quantity of popular products available at a special price only between 5 and 6 pm each Friday. The constraints on quantity and time create a pressure to buy.  -->  
   
