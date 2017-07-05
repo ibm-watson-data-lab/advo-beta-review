@@ -37,7 +37,7 @@ To address LocalCart's first project goal, their data science team collects data
 
 ### Exploring and analyzing customer activity data
 
-Next the LocalCart team explores learns more about their customers by examining their demographics, and then digs into sales transactions. Developing customer behavior analytics requires two separate but related skillsets: the data engineer, and the data scientist.
+Next the LocalCart team learns more about their customers by examining their demographics, and then digs into sales transactions. Developing customer behavior analytics requires two separate but related skillsets: the data engineer, and the data scientist.
 
 You can recreate their analysis by running the following notebooks:
 
