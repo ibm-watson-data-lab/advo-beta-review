@@ -1,6 +1,6 @@
 # Scenario: LocalCart seeks to boost sales by better understanding their customers
 
-LocalCart is a fast growing, online same-day-delivery grocery store. The business model is based on the ability to supply local products along with routine shopping needs, and to be able to deliver accurately in a small delivery window -- as little as an hour from placing the order.
+LocalCart is a grocery delivery service that prides itself on its relationships with local businesses. Users order specialty products and regular groceries from LocalCart’s website, and the items arrive the same day — even within the hour.
 
 <!--LocalCart specializes in time-boxed fire sales. The __Friday at Five__ sale is a time and quantity bounded sale, with a limited quantity of popular products available at a special price only between 5 and 6 pm each Friday. The constraints on quantity and time create a pressure to buy.  -->  
   
@@ -14,7 +14,7 @@ LocalCart wants:
 
 * Real-time (streaming) aggregated customer activities with intraday revenue figures and real-time funnel status.
 * Customer behavior information, such as demographics, shopping cart values, and so on.
-* A recommendation engine to encourage additional purchases through recommendations based on past buying behavior.
+* A recommendation engine to encourage additional purchases based on past buying behavior.
 
 Using functionality available in Watson Data Platform, LocalCart's data scientists and application developers create assets in the form of Jupyter notebooks. Notebooks can include text instructions, runnable code, and output including charts and graphs.   <!-- with links to each notebook in the advo beta project -->(links pending beta website)
 
@@ -39,7 +39,7 @@ To address LocalCart's first project goal, their data science team collects data
 
 Next the LocalCart team learns more about their customers by examining their demographics, and then digs into sales transactions. Developing customer behavior analytics requires two separate but related skillsets: the data engineer, and the data scientist.
 
-You can recreate their analysis by running the following notebooks:
+Just as they collaborated using notebooks, you can use their notebooks to run their work for yourself:
 
 1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data and transforms the data for use by the data scientists. [Notebook #3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
 
@@ -53,7 +53,7 @@ Share the graph and chart with other team members. [Notebook #3: Explore sales t
 
 2. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
 	* Aggregated customer activities  
-	* Intraday revenue figures on 5 minute chart  
+	* Revenue figures on 5-minute sliding windo  
 	* Real-time funnel status
 	[Notebook #4: Visualize streaming data in a real-time dashboard](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-4.ipynb)
 
