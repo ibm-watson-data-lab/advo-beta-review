@@ -49,8 +49,8 @@ Just as they collaborated using notebooks, you can use their notebooks to run th
 
 
 	
-	<!--Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.
-Share the graph and chart with other team members. [Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)-->
+<!--Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.
+Share the graph and chart with other team members. [Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics) -->
 
 
 2. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
