@@ -41,13 +41,15 @@ Next the LocalCart team learns more about their customers by examining their dem
 
 Just as they collaborated using notebooks, you can use their notebooks to run their work for yourself:
 
-1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data and transforms the data for use by the data scientists. [Notebook #3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
+1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data and transforms the data for use by the data scientists. 
 
-<!--	* [Notebook #3: Static clickstream analysis](https://apsportal.ibm.com/analytics/notebooks/79e5cc81-a452-4039-943a-3dbd08cadb89/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
+* [Notebook #3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
+
+* [Notebook #3b: Static clickstream analysis](https://apsportal.ibm.com/analytics/notebooks/79e5cc81-a452-4039-943a-3dbd08cadb89/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
 
 
 	
-	Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.
+	<!--Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.
 Share the graph and chart with other team members. [Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)-->
 
 
