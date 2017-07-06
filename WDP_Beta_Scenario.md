@@ -33,7 +33,6 @@ To address LocalCart's first project goal, their data science team collects data
 
 1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [Notebook #1: Creating a Kafka Producer of ClickStream events](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-1.ipynb)
 1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue. [Notebook #2: Creating a streaming pipeline](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-2.ipynb)
-<!--	* [Notebook #2a: Aggregating stream data](https://apsportal.ibm.com/analytics/notebooks/33ff5c0d-9a2a-44df-89fd-32ab2703097e/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics) -->
 
 ### Exploring and analyzing customer activity data
 
@@ -46,11 +45,6 @@ Just as they collaborated using notebooks, you can use their notebooks to run th
 * [Notebook #3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
 
 * [Notebook #3b: Static clickstream analysis](https://apsportal.ibm.com/analytics/notebooks/79e5cc81-a452-4039-943a-3dbd08cadb89/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)
-
-
-	
-<!--Analyze customer segmentation, average cart value per customer, and average shopping interval by customer segment.
-Share the graph and chart with other team members. [Notebook #3: Explore sales transactions](https://apsportal.ibm.com/analytics/notebooks/8739b6d6-401f-492c-a707-8d3e9ce43a2d/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics) -->
 
 
 2. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
