@@ -55,7 +55,7 @@ Share the graph and chart with other team members. [Notebook #3: Explore sales t
 
 2. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
 	* Aggregated customer activities  
-	* Revenue figures on 5-minute sliding windo  
+	* Revenue figures on 5-minute sliding window  
 	* Real-time funnel status
 	[Notebook #4: Visualize streaming data in a real-time dashboard](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-4.ipynb)
 
