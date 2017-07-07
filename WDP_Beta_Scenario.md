@@ -16,7 +16,7 @@ LocalCart wants:
 * Customer behavior information, such as demographics, shopping cart values, and so on.
 * A recommendation engine to encourage additional purchases based on past buying behavior.
 
-Using functionality available in Watson Data Platform, LocalCart's data scientists and application developers create assets in the form of Jupyter notebooks. Notebooks can include text instructions, runnable code, and output including charts and graphs.   <!-- with links to each notebook in the advo beta project -->(links pending beta website)
+Using functionality available in Watson Data Platform, LocalCart's data scientists and application developers create assets in the form of Jupyter notebooks. Notebooks can include text instructions, runnable code, and output including charts and graphs.  
 
 IBM Watson Data Platform provides LocalCart with a single cloud platform for app deployment, data management, streaming analytics, machine learning, and more. Follow along as we create the deliverables that address LocalCart's needs by using Watson Data Platform.
 
@@ -31,8 +31,9 @@ Learn about Jupyter notebooks, which are used throughout this scenario, in the D
 
 To address LocalCart's first project goal, their data science team collects data from their application clickstream and saves it to a database for analysis. You can simulate the streaming data capture by running the following notebooks:
 
-1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [LocalCart scenario part 1: Creating a Kafka Producer of clickstream events](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-1.ipynb)
-1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue. [LocalCart scenario part 2: Creating a streaming pipeline](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-2.ipynb)
+1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [LocalCart scenario part 1: Creating a Kafka Producer of clickstream events](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-1.ipynb)
+1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue. [LocalCart scenario part 2: Creating a streaming pipeline](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-2.ipynb)
+1. **MessageHub to CSV streaming pipelines** Capture streaming data and write it to CSV files for analysis. [LocalCart scenario part 2b: MessageHub to CSV streaming pipelines](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-2b.ipynb)
 
 ### Exploring and analyzing customer activity data
 
@@ -42,23 +43,23 @@ Just as they collaborated using notebooks, you can use their notebooks to run th
 
 1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data and transforms the data for use by the data scientists. 
 
-* [LocalCart scenario part 3: Analyze customer demographics and sales data](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3.ipynb)
+* [LocalCart scenario part 3: Analyze customer demographics and sales data](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-3.ipynb)
 
-* [LocalCart scenario part 3b: Static clickstream analysis](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-3b.ipynb)
+* [LocalCart scenario part 3b: Static clickstream analysis](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-3b.ipynb)
 
 
 2. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
 	* Aggregated customer activities  
 	* Revenue figures on 5-minute sliding window  
 	* Real-time funnel status
-	[LocalCart scenario part 4: Visualize streaming data in a real-time dashboard](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-4.ipynb)
+	[LocalCart scenario part 4: Visualize streaming data in a real-time dashboard](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-4.ipynb)
 
 
 ### Recommending additional purchases
 
 Finally, build a recommendation engine that will encourage LocalCart customers to buy additional products. Recommendations will be based on individual customer buying behavior, all-customers buying behaviors across the LocalCart business, and product rating. 
 
-* **A recommendation engine using Watson Machine Learning**. [LocalCart scenario part 5: Recommending purchases - new notebook in development]<!--(https://apsportal.ibm.com/analytics/notebooks/23a722e4-fa68-4412-8c8b-3b4e93977567/view?projectid=81238e6c-a19b-4c5c-9e45-753dfe7b7de3&context=analytics)-->.
+* **A recommendation engine using Watson Machine Learning**. [LocalCart scenario part 5: Recommending purchases](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-5.ipynb).
 
 The developer or data scientist: 
 
