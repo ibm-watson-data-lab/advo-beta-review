@@ -31,7 +31,7 @@ Learn about Jupyter notebooks, which are used throughout this scenario, in the D
 
 To address LocalCart's first project goal, their data science team collects data from their application clickstream and saves it to a database for analysis. You can simulate the streaming data capture by running the following notebooks:
 
-1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [LocalCart scenario part 1: Creating a Kafka Producer of ClickStream events](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-1.ipynb)
+1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [LocalCart scenario part 1: Creating a Kafka Producer of clickstream events](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-1.ipynb)
 1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue. [LocalCart scenario part 2: Creating a streaming pipeline](https://github.com/ibm-watson-data-lab/advo-beta-review/blob/master/notebooks/localcart-scenario-part-2.ipynb)
 
 ### Exploring and analyzing customer activity data
