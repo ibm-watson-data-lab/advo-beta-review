@@ -33,7 +33,7 @@ To address LocalCart's first project goal, their data science team collects data
 
 1. **Streaming data producer**. Build a clickstream event generator to provide streaming data, which is then archived in REDIS for later analytics processing. [LocalCart scenario part 1: Creating a Kafka Producer of clickstream events](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-1.ipynb)
 1. **Streaming data pipeline**. Build the streaming pipeline that monitors intraday revenue. [LocalCart scenario part 2: Creating a streaming pipeline](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-2.ipynb)
-1. **MessageHub to CSV streaming pipelines** Capture streaming data and write it to CSV files for analysis. [LocalCart scenario part 2b: MessageHub to CSV streaming pipelines](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-2b.ipynb)
+1. **MessageHub to CSV streaming pipelines**. Capture streaming data and write it to CSV files for analysis. [LocalCart scenario part 2b: MessageHub to CSV streaming pipelines](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-2b.ipynb)
 
 ### Exploring and analyzing customer activity data
 
