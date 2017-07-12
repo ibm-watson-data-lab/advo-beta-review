@@ -20,11 +20,28 @@ Using functionality available in Watson Data Platform, LocalCart's data scientis
 
 IBM Watson Data Platform provides LocalCart with a single cloud platform for app deployment, data management, streaming analytics, machine learning, and more. Follow along as we create the deliverables that address LocalCart's needs by using Watson Data Platform.
 
+LocalCart solution architecture:
+![Diagram of architecture](./images/beta-architecture.jpg "Solution architecture")
+
 ### Prerequisites
 
-Find overview and getting-started information in the Data Science Experience documentation: https://datascience.ibm.com/docs/content/getting-started/welcome-main.html. 
+If you followed the instructions in your welcome letter, you should already have your Bluemix ID and be logged in to Data Science Experience. The services you need to complete this tutorial were already created for you, and you have the keys to your Spark service and Object Storage.
+
+Find overview and getting-started information, including how to set up a project, in the Data Science Experience documentation: https://datascience.ibm.com/docs/content/getting-started/welcome-main.html. 
 
 Learn about Jupyter notebooks, which are used throughout this scenario, in the Data Science Experience documentation: https://datascience.ibm.com/docs/content/analyze-data/notebooks-parent.html
+
+### Creating your first project and notebook
+
+1. Log in to Data Science Experience https://datascience.ibm.com.
+1. Set up a project in Data Science Experience, and link your Spark service and Object Storage to that project: 
+	1. 	Click **Get started**, then click **New project**. 
+	1. Enter a name for your project, select your Spark service, Object Storage instance, and click **Create**.
+1. In your new project, click **Add to project > Notebook**.
+	1. Click **From URL**. 
+	1. Enter a notebook name, optional description, and the URL to Notebook 1: https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-1.ipynb .
+1. Click **Create Notebook**.
+1. Follow the scenario that follows, starting in *Notebook 1, LocalCart scenario part 1: Creating a Kafka Producer of clickstream events*. 
 
 
 ### Aggregating and analyzing customer activity data
@@ -43,16 +60,16 @@ Just as they collaborated using notebooks, you can use their notebooks to run th
 
 1. **Customer data exploration and analysis**. Build an analysis that ingests and prepares data and transforms the data for use by the data scientists. 
 
-* [LocalCart scenario part 3: Analyze customer demographics and sales data](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-3.ipynb)
+	* [LocalCart scenario part 3: Analyze customer demographics and sales data](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-3.ipynb)
 
-* [LocalCart scenario part 3b: Static clickstream analysis](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-3b.ipynb)
+	* [LocalCart scenario part 3b: Static clickstream analysis](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-3b.ipynb)
 
 
 2. **Customer activity dashboard** Create a dashboard that visualizes real-time aggregated data from clickstream, including:
 	* Aggregated customer activities  
 	* Revenue figures on 5-minute sliding window  
 	* Real-time funnel status
-	[LocalCart scenario part 4: Visualize streaming data in a real-time dashboard](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-4.ipynb)
+	* [LocalCart scenario part 4: Visualize streaming data in a real-time dashboard](https://github.com/wdp-beta/get-started/blob/master/notebooks/localcart-scenario-part-4.ipynb)
 
 
 ### Recommending additional purchases
