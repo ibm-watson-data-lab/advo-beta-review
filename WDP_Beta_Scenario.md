@@ -1,8 +1,6 @@
 # Scenario: LocalCart seeks to boost sales by better understanding their customers
 
-LocalCart is a grocery delivery service that prides itself on its relationships with local businesses. Users order specialty products and regular groceries from LocalCart’s website, and the items arrive the same day — even within the hour.
-
-<!--LocalCart specializes in time-boxed fire sales. The __Friday at Five__ sale is a time and quantity bounded sale, with a limited quantity of popular products available at a special price only between 5 and 6 pm each Friday. The constraints on quantity and time create a pressure to buy.  -->  
+LocalCart is a grocery delivery service that prides itself on its relationships with local businesses. Users order specialty products and regular groceries from LocalCart’s website, and the items arrive the same day — even within the hour.  
   
 To be successful, LocalCart requires a deep understanding of who their customers are, the behavior of those customers when shopping through LocalCart, and the ability to provide targeted product recommendations to increase revenue. 
 
@@ -26,6 +24,17 @@ LocalCart solution architecture:
 ### Prerequisites
 
 If you followed the instructions in your welcome letter, you should already have your Bluemix ID and be logged in to Data Science Experience. The services you need to complete this tutorial were already created for you, and you have the keys to your Spark service and Object Storage.
+
+As part of the beta program setup, you already have a set of services and applications available. These include:
+
+* Data Science Experience
+* IBM Watson Machine Learning
+* Message Hub
+* Cloudant NoSQL DB
+* Compose for PostgreSQL
+* Compose for Redis
+* Data Connect
+* Db2 on Cloud
 
 Find overview and getting-started information, including how to set up a project, in the Data Science Experience documentation: https://datascience.ibm.com/docs/content/getting-started/welcome-main.html. 
 
