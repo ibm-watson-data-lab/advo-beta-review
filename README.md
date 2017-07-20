@@ -5,6 +5,7 @@ Provision the following services and name them as follows *before* importing and
  - [Compose for Redis](https://console.bluemix.net/catalog/services/compose-for-redis?) (`ComposeForRedis-WDPBeta`)
  - [IBM Watson Machine Learning](https://console.bluemix.net/catalog/services/ibm-watson-machine-learning) (`IBMWatsonMachineLearning-WDPBeta`)
  - [Message Hub](https://console.bluemix.net/catalog/services/message-hub) (`MessageHub-WDPBeta`)
+ > You should but don't have to provision the services in the space where the DSX services reside.
  
 ## Import notebooks
  Import ("from URL") the following notebooks into DSX: 
