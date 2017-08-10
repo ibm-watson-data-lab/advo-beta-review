@@ -28,12 +28,12 @@ Before starting these tasks, create an IBM Analytics Engine cluster and upload d
 
 1. Log in to [Bluemix](http://www.bluemix.net).
 
-2. Click the account management widget and choose the organization **IBM-CloseBeta** as shown in the following image.
-![Account management widget](images/acct-mng-widget.jpg "Account Management widget") <!-- IBM-CloseBeta or IAE-CloseBeta as the image shows? -->
+2. Click the account management widget and choose the organization **IAE-CloseBeta** as shown in the following image.
+![Account management widget](images/acct-mng-widget.jpg "Account Management widget")
 
 3. Select the **Space** that was assigned to you in your welcome email.
 
-4. Navigate to the [IBM Analytics Engine catalog page](https://console.bluemix.net/catalog/?env_id=ibm:yp:us-south) to create the cluster. <!-- where is it??? --> Learn how to create and use the IBM Analytics Engine service in the [IBM Analytics Engine documentation](https://console.bluemix.net/docs/services/AnalyticsEngine/index.html#introduction).
+4. Navigate to the [IBM Analytics Engine catalog page](https://console.bluemix.net/catalog/services/ibm-analytics-engine?env_id=ibm:yp:us-south&taxonomyNavigation=apps) to create the cluster. <!-- where is it??? --> Learn how to create and use the IBM Analytics Engine service in the [IBM Analytics Engine documentation](https://console.bluemix.net/docs/services/AnalyticsEngine/index.html#introduction).
 
 ### Uploading data
 IBM Analytics Engine is based on Apache Hadoop and Spark. While it provides the HDFS file system and a limited amount of storage in the cluster, we recommend using IBM Cloud Object Store or the Swift-based Bluemix Object Storage service to store data.
@@ -53,7 +53,7 @@ You can create multiple projects in DSX, and each project can have multiple asso
 
 In addition, a project must be created for you to associate and use IBM Analytics Engine with. When creating a new project you select a Spark service. Select any available Spark service; IBM Analytics Engine can only be associated after the project is created.
 
-####**To connect your DSX instance to IBM Analytics Engine cluster**
+**To connect your DSX instance to IBM Analytics Engine cluster**
 
 1. [Sign in to Data Science Experience](https://datascience.ibm.com/).
 
@@ -83,13 +83,13 @@ A Jupyter notebook [Exploring Heating Problems in Manhattan](https://github.com/
 ### Run a simple Spark application using Spark submit
 You can run Spark applications locally or distributed across a cluster, either by using an interactive shell or by submitting an application. In this task, you will learn how to submit a batch job to count words in a text file on HDFS.
 
-####**To submit a batch job**
+**To submit a batch job**
 
 1. Upload a text file to HDFS in your cluster. You can do this by using either the Files View in Ambari or WebHDFS APIs. See the instructions in [Uploading files to HDFS](https://console.bluemix.net/docs/services/AnalyticsEngine/Upload-files-to-HDFS.html#uploading-files-to-hdfs).
 
 2. SSH into the cluster.
 
-3. Copy the [`wordcount.py`](https://github.com/wdp-beta/get-started) script  to `/home/wce/clsadmin/`.
+3. Copy the [`wordcount.py`](https://github.com/wdp-beta/get-started/blob/master/notebooks/wordcount.py) script  to `/home/wce/clsadmin/`.
 6. Go to **Manage Cluster** in Bluemix and click the **nodes** tab to get the name node host name. It's the host name of the **management-slave1** node type.
 4. Go to dir `/usr/iop/current/spark2-client/bin`.
 
